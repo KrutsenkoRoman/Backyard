@@ -8,11 +8,10 @@ a:hover {
   text-decoration: none;
 }
 
-/* HEADER */
+/***************************************** HEADER *********************************************************/
 .header {
   background-color: #80b412;
   padding: 2rem 0;
-
 }
 
 .header-socials {
@@ -127,7 +126,7 @@ a:hover {
   margin-top: 1rem;
 }
 
-/* Section - About us */
+/************************************************** ABOUS US - section********************************************/
 
 .about {
   padding: 5rem 0;
@@ -210,7 +209,7 @@ a:hover {
   margin-top: -0.5em;
 }
 
-/*//////////////////////////////////////////// Section - Latest news ////////////////////////////////*/
+/********************************************Section - Latest news *****************************************/
 
 .news {
   padding: 5rem 0 6rem;
@@ -298,8 +297,7 @@ a:hover {
   text-align: right;
 }
 
-/* Section-testimonials */
-
+/****************************************** TESTIMONIALS - section *****************************************/
 .testimonials {
   padding: 5rem 0;
 }
@@ -308,12 +306,26 @@ a:hover {
   margin-top: 5rem;
 }
 
-.slider-border {
+.testimonials-slider-item-container {
+  list-style: none;
+  padding: 2rem;
+  margin: 0 auto;
   border: 2px solid #80b412;
-  padding: 1rem;
+  max-width: 670px;
 }
 
-.slider-text {
+.testimonials-slider-link {
+  float: left;
+  margin-right: 1.4rem;
+}
+
+li:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.testimonials-slider-text {
   color: #222222;
   font-family: Roboto;
   font-size: 1.3rem;
@@ -321,14 +333,18 @@ a:hover {
   line-height: 1.1;
 }
 
-.slider-signature {
+.testimonials-slider-signature {
   color: #222222;
   font-family: Roboto;
   font-size: 20px;
   font-weight: 700;
 }
 
-/* FOOTER */
+.slick-slide {
+  outline: none;
+}
+
+/************************************************ FOOTER ***************************************************/
 
 .footer {
   background-image: url("../img/footer-bg.jpg");
